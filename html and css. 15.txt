@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> mehedi website </title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Oswald:wght@700&family=Unbounded&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6337ef4425.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"+Outlined/>
+</head>
+<body>
+    <div class="mehedi"> </div>
+    <h1> <marquee> Welcome To My Website </marquee></h1>
+    <p class="p1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque eligendi sunt ipsam tempore quo omnis quia quasi tempora distinctio. Dolorum, eaque in qui ipsum tempore excepturi doloribus quas sapiente modi? Quam at, excepturi vitae, debitis ratione voluptas ea alias veritatis non voluptates rem recusandae accusamus dignissimos blanditiis delectus quasi consequuntur corrupti ex? Blanditiis placeat quaerat distinctio doloribus ipsam omnis aliquam esse ad enim, atque nisi quia, consequatur molestias. Tempore, eveniet iusto vel tempora neque mollitia quibusdam inventore delectus ex corrupti itaque adipisci magnam consequatur facere dicta! Tempore fugiat ipsam voluptas? Quaerat harum saepe velit iure, atque, cum minima at hic quis laboriosam earum ducimus, ut dolorem maxime est quisquam modi fugiat eligendi laborum. Asperiores, blanditiis. Minima fugiat totam, sapiente ad excepturi suscipit, voluptates quisquam, voluptatum eveniet fugit sequi vitae aliquam quae dolorum architecto! Perferendis omnis eum impedit blanditiis quisquam in. Ipsam harum nihil at sint praesentium aliquam, rerum beatae sit excepturi itaque, optio placeat? Maxime eos nesciunt quasi veniam quaerat nam quidem, quisquam ratione eum iusto nemo eaque. Delectus beatae explicabo laborum, consequuntur cumque aperiam magni dolor porro officiis vero deleniti quas omnis consectetur voluptates sequi! Quibusdam, enim! Saepe laboriosam sit recusandae, dolore repellat error sunt ut nihil, officiis voluptatum velit explicabo illo blanditiis exercitationem at consectetur excepturi? Laboriosam, eum suscipit pariatur accusantium voluptates dolor recusandae obcaecati, possimus nihil assumenda ab eaque praesentium laudantium magnam animi sapiente maiores! Officiis, exercitationem, doloremque laboriosam reprehenderit corrupti unde, nulla quia aliquid voluptates excepturi aperiam suscipit blanditiis quis? Veniam dolor illum in, consequatur vel, beatae magnam explicabo rem reprehenderit sunt quisquam architecto quam! Culpa veritatis voluptatibus necessitatibus quos quod fugiat facere non architecto magni. Quaerat, earum! Facere adipisci magnam eos quas sequi autem rerum molestias ipsa, repudiandae, ducimus error asperiores nostrum aut rem? Consequuntur earum quas quia quibusdam obcaecati modi, at eaque odio soluta.</p>
+    <p id="p2"> Mohammad Mehedi Hasan </p>
+    <br><br>
+    <div class="mehedi">
+
+    </div>
+    <p id="p5"> Sign Up Form </p>
+    <fieldset>
+        <legend> Sign Up Form </legend>
+    <br>
+    <label for="user"> Name: </label>
+    <input type="text" id="user" name="User Name" placeholder="User Name">
+    <br>
+    <label for="email"> Email: </label>
+    <input type="text" id="email" name="User" placeholder="Email">
+    <br>
+    <label for="pass"> Password: </label>
+    <input type="text" id="pass" name="ps" placeholder="Password">
+    <br>
+    <label for="phn"> Phone Number: </label>
+    <br>
+    <select name="cood">
+        <option value="+880"> +880 </option>
+        <option value="+880"> +880 </option>
+        <option value="+880"> +880 </option>
+        <option value="+880"> +880 </option>
+        <option value="+880"> +880 </option>
+        <option value="+880"> +880 </option>
+    </select>
+    <input type="number" id="phn" name="pn" placeholder="01232456789">
+    <br>
+    <label for="country"> Country: </label>
+    <input list="con" placeholder="Country">
+    <datalist id="con">
+        <option value="bangladesh"> Bangladesh </option>
+        <option value="bangladesh"> Bangladesh </option>
+        <option value="bangladesh"> Bangladesh </option>
+        <option value="bangladesh"> Bangladesh </option>
+        <option value="bangladesh"> Bangladesh </option>
+        <option value="bangladesh"> Bangladesh </option>
+        <option value="bangladesh"> Bangladesh </option>
+        <option value="bangladesh"> Bangladesh </option>
+        <option value="bangladesh"> Bangladesh </option>
+        <option value="bangladesh"> Bangladesh </option>
+    </datalist>
+    <br>
+    Genedr:
+    <input type="radio" id="gnd1" name="gender">
+    <label for="gnd1"> Male </label>
+    <input type="radio" id="gnd2" name="gender">
+    <label for="gnd2"> Female </label>
+    <input type="radio" id="gnd3" name="gender">
+    <label for="gnd3"> Outhers </label>
+    <br>
+    <label for="date"> Date Of Bairth: </label>
+    <input type="date" id="date" name="db">
+    <br>
+    <label for="color"> Your Favorite Color: </label>
+    <input type="color" id="color" name="c">
+    <br>
+    <label for="file"> Chose Your Photo: </label>
+    <input type="file" id="file" name="f">
+    <br>
+    <input type="checkbox" id="vheicle1">
+    <label for="vheicle1"> I Have a Bike </label>
+    <input type="checkbox" id="vheicle2">
+    <label for="vheicle2"> I Have a Bycyle </label>
+    <br>
+    <textarea cols="30" rows="6" placeholder="Enter your Message"></textarea>
+    <br>
+    <input id="10" type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </fieldset>
+    <br><br>
+    <p id="p9"> Mohammad Mehedi Hasan </p>
+    <br>
+    <p id="p16"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sit assumenda in vitae minus, nobis inventore expedita amet id sint nesciunt aliquam atque, facere exercitationem ut ipsa vero eaque consequuntur!</p>
+    <br><br>
+    <i class="fa-brands fa-facebook"></i>
+    <br><br><br><br>
+    <span class="material-symbols-outlined">
+        settings
+        </span><br><br><br><br>
+        <i class="fa-brands fa-linkedin"></i>
+        <br><br><br>
+        <a href="https://www.google.com" target="_blank"> Google </a>
+        <br><br><br>
+        <ul>
+            <li> Mohammad- Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta assumenda, beatae quo vitae omnis, quod officia fugiat, maiores sed fugit rerum sit repellat recusandae itaque corrupti? Quos, ut ad. </li>
+            <li> Mehedi- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae minima libero quasi fugiat rem vel, nesciunt, perferendis quam, repellat veniam alias dignissimos laboriosam repellendus dolor velit facere veritatis sapiente! </li>
+            <li> hasan </li>
+            <li> Fahim </li>
+        </ul>
+        <br>
+        <ul>
+            <li> Mehedi </li>
+            <li> Hasan </li>
+            <li> Mohammad </li>
+        </ul>
+        <br><br>
+        <table>
+            <tr>
+                <th> Name: </th>
+                <td> Bill Gates </td>
+            </tr>
+            <tr>
+                <th rowspan="3"> Teliphone: </th>
+                <td> +99017984023 </td>
+            </tr>
+            <tr>
+                <td> +77019858949</td>
+            </tr>
+            <tr>
+                <td> +88323534058</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th> Name: </th>
+                <th colspan="2" id="t2"> Teliphone</th>
+            </tr>
+            <tr>
+                <td> Bill Gates </td>
+                <td> +9901243599</td>
+                <td> +8893470380</td>
+            </tr>
+        </table>
+        <br><br>
+        <p id="p13"> Hello Friends </p>
+        <br>
+        <span>Lorem ipsum dolor sit amet.</span>
+        <br><br>
+        <div>
+            <p class="p21"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptas obcaecati, ipsum fugit praesentium recusandae adipisci id quas error sunt odio illum! Dolorem saepe corrupti, cumque temporibus eveniet molestiae nisi.</p>
+            <br>
+            <div>
+                <p class="p22"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid natus minima commodi, soluta, ab dicta distinctio praesentium sequi quia laboriosam debitis enim repellat mollitia, exercitationem laudantium? Atque aliquam odio odit.</p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <p class="p23"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis adipisci accusamus natus provident vitae impedit. Praesentium voluptas dolorem quam. Animi possimus quam voluptatum dolor. Hic, iure voluptatibus! Cum, sint possimus Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam eaque numquam labore vitae ratione officiis nemo! Accusantium eius ducimus aut necessitatibus quidem vel provident quae, laborum eaque, deserunt deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, qui? Maiores aperiam inventore dolorem vero voluptatibus veritatis quae mollitia aliquid, itaque sit aspernatur nostrum praesentium. Dolores asperiores omnis reprehenderit hi Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quas aut voluptates minus facilis, cupiditate vitae laudantium. Iure cum ipsa, reiciendis suscipit nisi ex excepturi ipsum, officiis tempore voluptate fugiat.</p>
+        </div>
+    </body>    
+</html>
+
+
+
+CSS
+
+h1{
+    color: red;
+    background-color: cyan;
+    text-align: center;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.p1{
+    margin: 50px;
+    background-color: rgb(141,244,244);
+    padding: 15px;
+    padding: top: 20px;;
+    text-transform: ;
+    word-spacing: 9px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-size: 19px;
+    text-indent: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: unset;
+
+}
+
+#p2{
+    text-align: center;
+    color: red;
+    font-size: 55px;
+    font-style: inherit;
+    border-width: 8px;
+    border-style: solid;
+    border-color: gold;
+    border-radius: 10px;
+    margin: 160px;
+    outline-width: 20px;
+    outline-color: cyan;
+    outline-style: solid;
+    outline-offset: 5px;
+    
+    
+}
+#p5{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    border-width: 5px;
+    border-color: gold;
+    border-style: solid;
+    margin: 200px;
+    margin-bottom: 200px;
+    background-color: cyan;
+    outline-color: cyan;
+    outline-style: double;
+    outline-offset: 10px;
+    
+}
+legend{
+    color: red;
+    background-color: cyan;
+    font-size: 30px;
+    border: 5px;
+    border-style: solid;
+    border-color: gold;
+    border-radius: none;
+    outline-color: red;
+    outline-style: double;
+    outline-offset: 2px;
+}
+fieldset{
+    background-color: rgb(198, 255, 255);
+    border: 3px;
+    border-color: gold;
+    border-style: solid;
+    margin: 50px;
+}
+#p9{
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: inherit;
+    text-align: center;
+    color: red;
+    background-color: cyan;
+    border-width: 5px;
+    border-color: goldenrod;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 50px;
+    outline-width: 8px;
+    outline-style: solid;
+    outline-color: red;
+    outline-offset: 5px;
+    font-weight: bold;
+}
+#p16{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: bold;
+}
+i{
+    font-size: 100px;
+    color: rgb(52, 52, 142);
+}
+span{
+    font-size: 600px;
+    color: rgb(0, 0, 0);
+}
+a{
+    font-size: 50px;
+    margin: 30px;
+    color: red;
+    text-decoration: none;
+    background-color: cyan;
+    padding: 20px;
+    border: 5px red solid;
+    border-radius: 3px;
+}
+a:hover{
+    color: cyan;
+    background-color: red;
+    border-color: black;
+    border-radius: 5px;
+}
+a:active{
+    color: white;
+    background-color: green;
+}
+a:visited{
+    color: tomato;
+    background-color: black;
+}
+ul{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    font-size: 25px;
+    text-transform: capitalize;
+    word-spacing: ;
+    line-height: 25px;
+}
+table, th, td{
+    border: 3px red solid;
+    border-collapse: collapse;
+
+}
+table{
+    width: 500px;
+}
+table{
+    text-align: left;
+}
+table{
+    margin: 50px;
+}
+#t2{
+    text-align: center;
+}
+.p13{
+    display: block;
+}
+span{
+    font-size: 40px;
+    text-align: center;
+    display: block;
+}
+.p21{
+    border: 5px red solid;
+    width: 400px;
+    margin: auto;
+}
+.p22{
+    border: 5px green solid;
+    max-width: 400px;
+    margin: auto;
+}
+.p23{
+    border: 5px red solid;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    overflow: auto;
+}
+
+classe-16/ position design.
+html.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mehedi website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box1">
+        <div class="box2"></div>
+    </div>
+    <div class="name">
+        Mohammad Mehedi Hasan 
+    </div>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque et quae expedita aliquam, deserunt quos nam maiores, aperiam obcaecati fugit in minus officiis libero quibusdam reiciendis a laborum nulla cupiditate earum inventore nisi vitae doloribus? Blanditiis incidunt eos eum ipsum sunt! Velit in molestias esse iusto nostrum, a optio expedita porro non sunt, iure praesentium aliquam nesciunt, similique incidunt dolor dicta commodi laboriosam dolores? Sed et suscipit eius praesentium necessitatibus numquam aliquid ipsa pariatur beatae minus distinctio, animi consequatur! Doloribus quae vero minima voluptas, neque, eveniet nemo tempora quo delectus, debitis mollitia aut quas autem aperiam porro facere beatae laborum eos voluptate illo fugit aliquam! Explicabo, sint rerum commodi quaerat rem dolorem eaque? Nisi quas nulla ullam officiis consectetur reiciendis, dolor ex atque, aliquam consequatur sapiente natus delectus vel! Porro iusto obcaecati est voluptatem quos voluptas, iure repudiandae quasi. Voluptatum, provident tenetur. Nihil odio iste voluptas temporibus cupiditate doloremque perferendis fugit expedita cumque repellendus ab est et, voluptatum praesentium natus ut eveniet nisi alias sit molestiae itaque animi? Dolor quis iure ducimus omnis unde repudiandae eius numquam placeat qui, eum laborum ratione quas cum! Recusandae sit corrupti tempore nemo, accusantium perferendis modi cumque, vitae odit eaque laborum adipisci dolor consequuntur dolores alias, ullam debitis inventore neque dicta fuga esse deserunt rerum? Aut, iste beatae, inventore accusamus deserunt accusantium doloremque, pariatur consequuntur deleniti a dolorum libero ut soluta saepe! Ipsa perspiciatis facere similique exercitationem numquam debitis suscipit aut, natus dignissimos harum eaque quasi ab fuga, obcaecati nesciunt dolor? Labore aliquid distinctio optio eaque ducimus quos. Nemo laboriosam aut ad doloremque dolore maiores earum eum consequatur quaerat repellat eveniet quibusdam ipsam adipisci voluptas tempora vitae, porro sit cupiditate quia asperiores autem molestias in, impedit temporibus? Voluptatibus, porro, consequatur totam nesciunt officiis eveniet perferendis illum voluptate distinctio facilis necessitatibus reprehenderit esse omnis aliquid dolore placeat dicta odit cum vel aperiam repudiandae provident nostrum! Officiis, repudiandae? Corporis omnis unde modi illo quidem optio repellat sit fugiat. Veniam, esse sit earum facere velit asperiores fugit eum maiores iste accusamus sequi consequatur. Dolores temporibus, nulla unde distinctio ex reiciendis, beatae saepe cum illum laborum quod. Recusandae animi ducimus necessitatibus, laudantium incidunt beatae modi molestias impedit maiores eos reiciendis laborum quam blanditiis corrupti a quaerat ullam aliquam aliquid, sapiente, repudiandae cumque minima fugit alias officiis? Veritatis fugiat sequi rem. Reprehenderit, totam asperiores. Ad sequi suscipit repudiandae doloribus quis! Totam accusantium quod, corporis quos est eos iste distinctio libero cupiditate? In officiis, eligendi ea incidunt debitis vel aliquam itaque ipsa tenetur qui obcaecati modi! Dolorem, ad maxime quaerat asperiores necessitatibus quas porro facilis, voluptatem inventore unde pariatur delectus? Quisquam magnam consectetur nesciunt velit repudiandae sint animi. Cum in totam fugiat! Tempora earum sed illum, dolor sunt ab placeat corrupti ad aspernatur nam quos delectus, voluptatum dignissimos autem porro, facere optio minima repellendus culpa molestias deleniti dolorem cum. Nobis minima, eaque deserunt quo voluptates accusantium expedita. Numquam veritatis laborum blanditiis voluptatum officia assumenda ducimus culpa. Explicabo eaque aliquam laboriosam. Totam similique eveniet aliquam, ipsam accusantium distinctio in adipisci laborum mollitia, perferendis autem excepturi nobis commodi possimus amet. Omnis similique repellendus, officia optio eum blanditiis sit necessitatibus dolorum hic unde alias tempore qui vitae quibusdam tempora aliquid amet facilis earum, nihil quaerat labore rerum cum. Obcaecati, doloremque reiciendis? Quo, earum commodi sapiente praesentium aliquid cupiditate, iste laboriosam sit quasi laborum eveniet quaerat explicabo alias. Id itaque sint aliquid dignissimos rerum fuga optio eius illo delectus, accusamus animi dolorum iure, veniam ut dolore recusandae. Voluptas iusto repudiandae natus! Repellat, illo dolores quod sunt ut, iusto nemo dolore ea excepturi earum suscipit. Ducimus necessitatibus eum magni facilis neque libero explicabo consequatur nemo nihil totam velit aspernatur rem, aliquid distinctio beatae sapiente voluptatum nobis reprehenderit corporis autem vitae veritatis? Ullam voluptates cum voluptas eum. Mollitia tempora magnam voluptatem adipisci doloremque suscipit ea quas ex repellat facilis. Quos ipsa accusantium eaque aliquid atque porro. Animi non corrupti sed eos reprehenderit voluptates illum pariatur. Quos quis quas quaerat a quidem officia sint cum! Quas eaque repellat culpa fuga dolores temporibus eos eveniet quod, sed, ipsum ullam enim. Laborum beatae officia qui illum dicta, ratione deserunt voluptatibus nihil, molestias obcaecati alias inventore exercitationem nisi! Doloribus error enim voluptatibus reiciendis provident cupiditate rerum, commodi maxime quas consequatur dolores ab a iure fugit quis omnis ipsum. Fugit deserunt fugiat id maxime eum earum commodi tempora ab explicabo, ipsa magnam quidem eaque quasi non voluptate, eligendi mollitia nesciunt illum fuga? Eaque hic aspernatur delectus doloremque, quaerat nihil pariatur fugiat ipsum sapiente a veritatis iusto natus tenetur sed praesentium earum, veniam eum cum, similique illo eligendi dolores? Temporibus cumque rerum repudiandae perferendis ullam. Repudiandae odit laborum quaerat distinctio dolore illo. Cum aliquid similique doloribus harum perferendis error inventore quod veritatis aut voluptatum ullam quam veniam eligendi, deserunt ab minus beatae repellat aperiam tenetur. Corporis ducimus quod labore culpa natus magnam, mollitia repellat in vel nisi quibusdam quisquam ut blanditiis aspernatur saepe consectetur fuga autem itaque non hic cum? Amet, animi aut tempora quae rem sit necessitatibus fugit commodi magnam sapiente iure velit sequi. Iusto corrupti nesciunt mollitia ullam sequi? Fugit, illum vero sed ducimus ex, vitae culpa itaque numquam est nulla, explicabo cupiditate velit id animi minus ea veniam iure impedit mollitia enim labore totam ut laborum voluptates? Alias ullam dolor tempora perferendis. Quae nesciunt molestias eaque cupiditate aliquid? Fugit alias aliquam asperiores repellendus, ea expedita vel rerum ab quas eos aperiam unde dolorem iste veniam. Ipsum nostrum nemo alias eos, accusamus consequuntur molestias doloremque, non animi repellat officiis praesentium repellendus ut quam dolor natus aspernatur suscipit, rerum inventore molestiae sequi nam? Harum, ipsam repellendus nihil praesentium quasi itaque sint suscipit facilis provident. Nesciunt est rem, perspiciatis fugit ad accusantium perferendis magni at dolorem, quibusdam explicabo dolore. Aperiam blanditiis alias, nulla nesciunt, voluptas repellendus possimus voluptates non accusantium dolore, a nostrum enim ipsa? Eaque culpa cupiditate commodi, rem voluptatem aliquid perspiciatis explicabo ut obcaecati saepe, quia expedita temporibus distinctio, doloribus adipisci labore quas! Vero, nisi atque totam dolores esse perspiciatis hic earum iusto soluta a consequatur odio accusamus, repellendus accusantium!</p>
+    <div class="medu"> Mehedi </div>
+</body>
+</html>
+css==========================================================================
+.box1{
+    width: 600px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.name{
+    border: 5px red solid;
+    width: 300px;
+    text-align: center;
+    font-size: larger;
+    color: red;
+    background-color: cyan;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+
+}
+p{
+    padding-bottom: 2000px;
+}
+.medu{
+    font-size: 50px;
+    bottom: 0;
+    position: fixed;
+}
+
+classe-17/ Floth design.=========================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mehedi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="img1" src="Car3.jpg" alt="Car image">
+    <img class="img2" src="Car3.jpg" alt="Car image">
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illo facilis tempore porro ad nemo soluta error cumque qui tenetur architecto quis sequi cum pariatur aliquid distinctio nam, accusamus assumenda enim voluptates placeat ab quasi ullam minus! Veniam incidunt, reprehenderit perferendis recusandae possimus nisi voluptatibus quasi doloremque. Beatae accusamus fuga sunt veritatis corrupti nemo ad molestias, ea ex repellendus voluptatum commodi minus sed, impedit, aspernatur ipsam explicabo? Voluptatum, atque? Fugit, tempora ab. Debitis pariatur nihil quaerat, quo quasi ad voluptatem alias quas vel. Eveniet recusandae consectetur saepe cupiditate neque aliquid in possimus repellat optio dolor iure illo placeat deleniti eos natus quibusdam id pariatur ut, ipsam amet iste expedita minima minus! Natus aperiam possimus nostrum nulla blanditiis quis, ipsa quod ullam molestias temporibus vel distinctio quo magnam officiis iure deleniti illum inventore dolore? Esse deleniti illum nobis fugiat quam ea blanditiis sed mollitia ipsum totam, reprehenderit impedit consequatur repellendus velit autem eligendi laudantium veniam accusantium pariatur repellat</p>
+
+<div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+
+</body>
+</html>
+
+
+CSS===================
+.img1{
+    width: 300px;
+    float: right;
+}
+.img2{
+    width: 300px;
+    float: left;
+}
+P{
+    clear: ;
+}
+
+div{
+    float: left;
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    background-color: cyan;
+}
+.box4{
+    width: 300px;
+    height: 200px;
+    background-color: tomato;
+}
+
+
+Classe-18/pseudo============================
+
+<a href="#">Click Me</a>
+<body>
+    <h1> Lorem ipsum dolor sit amet consectetur.</h1>
+    <h1> Lorem ipsum dolor sit amet consectetur.</h1>
+    <h1> Lorem ipsum dolor sit amet consectetur.</h1>
+    
+</body>
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor a minima, natus maiores voluptatem praesentium distinctio nulla quod vitae odit doloremque error ipsum atque doloribus rem. Repellat excepturi adipisci magni.</p>
+    <h1> Mohammad Mehedi Hasan </h1>
+
+CSS=======
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+h1:last-child{
+    color: red;
+}
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+h1::before{
+    content: url(Car.jpg);
+}
+
+classe-19/opacity======================================================================
+
+ <img src="Car3.jpg" alt="Car Image"> 
+        <div class="bg">
+        <div class="box">
+            <p> Mohammad Mehedi </p>
+        </div>
+    </div>
+
+
+css===========
+
+img{
+    width: 500px;
+
+}
+img:hover{
+    opacity: 0.5;
+}
+
+.bg{
+    width: 500px;
+    height: 300px;
+    background: url(Car3.jpg) no-repeat center;
+    overflow: hidden;
+}
+p{
+    font-size: 40px;
+}
+.box{
+    text-align: center;
+    background-color: cyan;
+    margin: 100px;
+    opacity: 0.7;
+}
+
+
+=========color float ==============
+
+class-20/gradient design.===========================================================
+html===========
+
+
+<div class="box">
+
+    </div>
+
+css============
+
+.box{
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(red, green);
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background: renial-gradient(to left/deg/,red, green);
+}
+
+class-20/text and shedo design.===========================================================
+
+ <div class="box">
+        <img src="Car3.jpg" alt="rgrgrg">
+        <h1> Mohammad Mehedi </h1>
+    </div>
+
+css==========================
+
+
+ .box{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    border: 1px red solid;
+    box-shadow: 5px 5px 5px rgb(234, 131, 131);
+    
+}
+.box img{
+    width: 400px;
+    margin-top: 60px;
+}
+
+
+
